@@ -33,7 +33,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ocastaneda3/rockauto_api">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/RockAutoAPI.png" alt="Logo" height="350">
   </a>
 
   <h3 align="center">Unofficial RockAuto API</h3>
@@ -44,8 +44,8 @@
     <a href="https://github.com/ocastaneda3/rockauto_api"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ocastaneda3/rockauto_api">View Demo</a>
-    ·
+    <!-- <a href="https://github.com/ocastaneda3/rockauto_api">View Demo</a> -->
+    <!-- · -->
     <a href="https://github.com/ocastaneda3/rockauto_api/issues">Report Bug</a>
     ·
     <a href="https://github.com/ocastaneda3/rockauto_api/issues">Request Feature</a>
