@@ -38,7 +38,9 @@
   <h3 align="center">Unofficial RockAuto API</h3>
 
   <p align="center">
-    Unofficial RockAuto API developed my myself and not associated with RockAuto LLC 
+    Unofficial RockAuto API developed my myself and not associated with RockAuto LLC
+    <br />
+    README In Porgress . . .
     <br />
     <a href="https://github.com/ocastaneda3/rockauto_api"><strong>Explore the docs »</strong></a>
     <br />
@@ -53,7 +55,7 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLE OF CONTENTS
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
@@ -72,72 +74,72 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <!-- <li><a href="#contributing">Contributing</a></li> -->
-    <!-- <li><a href="#license">License</a></li> -->
+    <!-- <li><a href="#contributing">Contributing</a></li>
+    <!-- <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
+    <!-- <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
-</details>
+</details> -->
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ## About The Project -->
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+<!-- Here's a blank template to get started: -->
+<!-- **To avoid retyping too much info. Do a search and replace with your text editor for the following:** -->
+<!-- `github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description` -->
 
 
-### Built With
+<!-- ### Built With -->
 
-* []()
-* []()
-* []()
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+<!--## Getting Started -->
 
-To get a local copy up and running follow these simple steps.
+<!--To get a local copy up and running follow these simple steps. -->
 
-### Prerequisites
+<!--### Prerequisites -->
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
+<!--This is an example of how to list things you need to use the software and how to install them.
+<!--* npm -->
+<!--  ```sh
   npm install npm@latest -g
-  ```
+  ``` -->
 
-### Installation
+<!-- ### Installation -->
 
-1. Clone the repo
-   ```sh
+<!-- 1. Clone the repo -->
+<!--    ```sh
    git clone https://github.com/ocastaneda3/rockauto_api.git
-   ```
-2. Install NPM packages
-   ```sh
+   ``` -->
+<!-- 2. Install NPM packages -->
+<!--    ```sh
    npm install
-   ```
+   ``` -->
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<!-- ## Usage -->
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+<!-- ## Roadmap -->
 
-See the [open issues](https://github.com/ocastaneda3/rockauto_api/issues) for a list of proposed features (and known issues).
+<!-- See the [open issues](https://github.com/ocastaneda3/rockauto_api/issues) for a list of proposed features (and known issues). -->
 
 
 
@@ -162,11 +164,11 @@ See the [open issues](https://github.com/ocastaneda3/rockauto_api/issues) for a 
 
 
 <!-- CONTACT -->
-## Contact
+<!-- ## Contact -->
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+<!-- Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email -->
 
-Project Link: [https://github.com/ocastaneda3/rockauto_api](https://github.com/ocastaneda3/rockauto_api)
+<!-- Project Link: [https://github.com/ocastaneda3/rockauto_api](https://github.com/ocastaneda3/rockauto_api) -->
 
 
 
