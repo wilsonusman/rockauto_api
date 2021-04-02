@@ -109,30 +109,41 @@ async def get_engines( search_make: str, search_year: str, search_model: str, se
 
 @rockauto_api.get("/categories/{search_vehicle}")
 async def get_categories( search_make: str, search_year: str, search_model: str, search_engine: str, search_link: str ):
-    categories_list = []
-
     browser = mechanize.Browser()
     page_content = browser.open( search_link ).read()
     browser.close()
 
     soup = BeautifulSoup(page_content, features='html5lib').find_all('a', attrs={'class', 'navlabellink'})[4:]
 
-    for x in soup:
-        categories_list.append( {'make': search_make, 'year': search_year, 'model': search_model, 'engine': search_engine, 'category': x.get_text(), 'link': 'https://www.rockauto.com' + str( x.get('href') ) })
-
-    return categories_list
+    return [
+        {
+            'make': search_make,
+            'year': search_year,
+            'model': search_model,
+            'engine': search_engine,
+            'category': x.get_text(),
+            'link': 'https://www.rockauto.com' + str(x.get('href')),
+        }
+        for x in soup
+    ]
 
 @rockauto_api.get("/sub_categories/{search_vehicle}")
 async def get_sub_categories( search_make: str, search_year: str, search_model: str, search_engine: str, search_category: str, search_link: str ):
-    sub_categories_list = []
-
     browser = mechanize.Browser()
     page_content = browser.open( search_link ).read()
     browser.close()
 
     soup = BeautifulSoup(page_content, features='html5lib').find_all('a', attrs={'class', 'navlabellink'})[5:]
 
-    for x in soup:
-        sub_categories_list.append( {'make': search_make, 'year': search_year, 'model': search_model, 'engine': search_engine, 'category': search_category, 'sub_category': x.get_text(), 'link': 'https://www.rockauto.com' + str( x.get('href') ) })
-
-    return sub_categories_list
+    return [
+        {
+            'make': search_make,
+            'year': search_year,
+            'model': search_model,
+            'engine': search_engine,
+            'category': search_category,
+            'sub_category': x.get_text(),
+            'link': 'https://www.rockauto.com' + str(x.get('href')),
+        }
+        for x in soup
+    ]
